@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recolhimento</title>
+    <link rel="stylesheet" href="recolhimento.css">
+</head>
+<body>
+    <div class="caixa">
+        <div class="title">
+            <h2>Recolhimento</h2>
+        </div>
+
+        <form id="form">
+            <label for="saldoJb">Saldo JB:</label>
+            <input type="text" id="saldoJb" name="saldoJb">
+        
+            <label for="saldoLe">Saldo LE:</label>
+            <input type="text" id="saldoLe" name="saldoLe">
+        
+            <label for="despesas">Despesas:</label>
+            <input type="text" id="despesas" name="despesas">
+
+        
+            <label for="premioFut">Prêmios FUT:</label>
+            <input type="text" id="premioFut" name="premioFut">
+        
+            <label for="caixa">Caixa:</label>
+            <input type="text" id="caixa" name="caixa">
+        </form>
+        
+        <div class="botoes">
+            <button onclick="diferenca()">Diferença</button>
+            <button onclick="calcular()">Calcular</button>
+        </div>
+
+<!-- <div id="log"></div> -->
+
+    </div>
+    <script src="recolhimento.js"></script>
+</body>
+</html>
